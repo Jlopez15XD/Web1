@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        header {
+            color: #000000;
+            padding: 15px;
+            text-align: center;
+            background-color: #828282;
+        }
+
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: #000000;
+           
+            margin: 15px;
+        }
+
+        form {
+            margin-top: 15px;
+        }
+
+        input[type="text"] {
+            padding: 5px;
+            width: 200px;
+        }
+
+        input {
+            padding: 5px 10px;
+            color: #fff;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <h1>Mi Página Web</h1>
+        
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#acerca">Acerca de</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <form action="/buscar" method="get">
+            <input type="text" name="q" placeholder="Buscar...">
+            <input type="submit" value="Buscar">
+        </form>
+    </header>
+
+</body>
+</html>

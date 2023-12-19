@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #comentarios {
+            width: 40%;
+            margin: 20px auto;
+        }
+
+        .comentario {
+            border: 1px solid #0b0000;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .nombre-usuario {
+            font-weight: bold;
+            margin-bottom: 5px;
+
+        }
+        .nombre-usuario1 {
+            font-weight: bold;
+            margin-bottom: 30px;
+
+        }
+
+        .fecha {
+            color: #777;
+            font-size: 0.8em;
+        }
+
+        .contenido {
+            margin-top: 10px;
+        }
+        .formulario-comentario{
+            margin: 30px;
+            padding: 70px;
+        }
+        .titol1{
+            font-family: 'Franklin Gothic Medium';
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="comentarios">
+        <div class="comentario">
+            <div class="nombre-usuario">Usuario1</div>
+            <div class="fecha">Fecha: 01/01/2023</div>
+            <div class="contenido">Este es un comentario de ejemplo. ¡Me encanta este sistema de comentarios!</div>
+        </div>
+
+        <div class="comentario">
+            <div class="nombre-usuario">Usuario2</div>
+            <div class="fecha">Fecha: 02/01/2023</div>
+            <div class="contenido">Otro comentario interesante. Gracias por compartir.</div>
+        </div>
+
+    </div>
+
+<div id ="comentarios">
+    <div class ="titol1">Añadir comentario</div>
+    <div class = "nombre-usuario1">Nombre usuario <input type="text" id="nombre-usuario" name="nombre-usuario" required></div>
+    <div class=" nombre-usuario1">  Añadir comentario <textarea id="contenido-comentario" name="contenido-comentario" rows="4" required></textarea>
+    </div>
+    
+    
+</div>
+    
+
+</body>
+</html>
