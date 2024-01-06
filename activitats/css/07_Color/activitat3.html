@@ -7,41 +7,29 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             background-color: #f4f4f4;
             color: #333;
         }
 
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
 
         main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
+            
             background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        p {
-            line-height: 1.6;
-        }
+        .caja {
+            background-color: rgb(255, 0, 68);
 
-        comments {
-            margin-top: 20px;
+            background: rgb(255, 0, 140);
         }
-
-        h2 {
-            color: #333;
-        }
-
-        time {
+        .data{
+            font-family: 'Times New Roman', Times, serif;
             color: #777;
+            opacity: 0.5;
+        }
+        .caja1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: red;
         }
     </style>
 </head>
@@ -53,14 +41,17 @@
 
     <main>
         <article>
-            <h2>¡Bienvenido a Mi Blog Simple!</h2>
-            <p>Este es el blog de Joel Lopez</p>
+            <h2>Bienvenido a Mi Blog</h2>
+            <p>Mi nombre es <a class="caja">Joel Lopez</a>, me gusta jugar a videojuegos y conducir en moto</p>
         </article>
     </main>
 
     <comments>
-        <h2>Comentarios</h2>
-        <p>Aquí puedes dejar tus comentarios y pensamientos sobre el contenido.</p>
+        <h2>Escribiendo</h2>
+        
+        <p><a class="data">Dec 10, 2015</a><a class="caja1"> -- Bienvenido! --</a> Encontré pasillos de ideas brillantes que brillaban como luciérnagas en la oscuridad, mientras que otros senderos se ocultaban en sombras misteriosas, desafiándome a descubrir sus secretos. En cada esquina, la inspiración aguardaba, lista para sorprenderme con su ingenio y originalidad.</p>
+        <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        <p><a class="data">Gen 7, 2016</a> <a class="caja1"> -- Bienvenido! --</a> Encontré pasillos de ideas brillantes que brillaban como luciérnagas en la oscuridad, mientras que otros senderos se ocultaban en sombras misteriosas, desafiándome a descubrir sus secretos. En cada esquina, la inspiración aguardaba, lista para sorprenderme con su ingenio y originalidad.</p>
     </comments>
 
 </body>
