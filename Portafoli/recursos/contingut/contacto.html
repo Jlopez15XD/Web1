@@ -11,21 +11,24 @@
 <body>
 
     <nav>
-        <a href="./activitats.html">Pagina inicial</a>
+        <a href="../../index.html">Pagina inicial</a>
         <a href="./activitats.html">Acticitats</a>
         <a href="./sobremi.html">Sobre mi</a>
-        <a href="#">Contacte</a>
+        <a href="./contacto.html">Contacte</a>
     </nav>
-    <div class="imagen-con-bordes">
-        <img src="../imagenes/i.jpg"width="100px" alt="jpg">
-    </div>
-    <div class="texto-con-bordes">
-        <p>Hola, hem dic Joel Lopez i aquest es el meu portafoli personal. Soc un estudiant de infromatica en el institut caparrella de lleida, ara tambe estic treballant de auxiliar administratiu en el Hospital Arnau de vilanova de lleida, m'agrada jugar a videojocs i conduir la meva moto.</p>
-    </div>
+    <form method="blanc">
+        <label for="nombre">Nom:</label>
+        <textarea type="text" id="nombre" name="nombre" required></textarea>
 
-    <div class="texto-con-bordes">
-        <p>En un futur m'agradaria ser o programador o bomber.</p>
-    </div>
+        <label for="email">Correu electronic:</label>
+        <textarea type="email" id="email" name="email" required></textarea>
+        
+
+        <label for="mensaje">Comentaris:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar Mensaje</button>
+    </form>
    
 
 
