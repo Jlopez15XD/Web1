@@ -160,9 +160,11 @@ table{
     font-size: 14px; 
     color: #0e0e0e; 
   }
-
+  
+  
   .habilidad {
-    text-align:center;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -171,17 +173,22 @@ table{
     background-color: #ddd; 
     height: 20px; 
     width: 100px; 
-    margin: 10px auto; 
+    margin: 20px auto; 
 }
 
 .porcentaje {
     background-color: #4CAF50; 
     height: 100%;
-    width: 80%; 
+    width: 55%;
     color: white;
     text-align: center;
     line-height: 20px; 
 }
-  
-  
-  
+.porcentaje2 {
+  background-color: #4CAF50; 
+  height: 100%;
+  width: 35%;
+  color: white;
+  text-align: center;
+  line-height: 20px; 
+}
