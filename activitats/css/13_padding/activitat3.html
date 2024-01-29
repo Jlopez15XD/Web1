@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Columnas con CSS Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  
+
+.columnas {
+    display: grid;
+   
+    height: 150px;
+
+}
+
+.columna {
+    border: 2px solid #000000; 
+    padding: 10px;
+    
+}
+
+.columna2 {
+    border: 2px solid #000000; 
+    padding: 10px;
+    border-top: 0px solid;
+}
+.columna3 {
+    border: 2px solid #000000; 
+    padding: 10px;
+}
+
+p{
+    margin-top: 55px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+   
+}
+.p1{
+    margin-right: 800px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+</style>
+<body>
+
+    <div class="columnas">
+        <div class="columna"><p>¿Que metodos de pago ofrecen?</p></div>
+    </div>
+    <div class="columnas">
+        <div class="columna2"><p>¿Como puedo cambiarme a un plan diferente?</p>
+            <div class="p1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo
+            </div>
+        </div>
+    
+    </div>
+    <p></p>
+    <div class="columnas">
+        <div class="columna3"><p>¿Puedo optar  por comprar creditos?</p></div>
+    </div>
+
+</body>
+</html>
