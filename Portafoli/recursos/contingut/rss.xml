@@ -13,7 +13,7 @@
    
     <item>
       <title>Nova tecnologia de realitat virtual revoluciona el mercat</title>
-      <link>https://exemple.com/noticia1</link>
+      <link></link>
       <description>Una nova tecnologia de realitat virtual promet canviar la manera en què experimentem el món digital.</description>
       <pubDate>Mon, 13 Feb 2024 08:15:00 GMT</pubDate>
     </item>
@@ -21,7 +21,7 @@
  
     <item>
       <title>Últimes tendències en ciberseguretat</title>
-      <link>https://exemple.com/noticia2</link>
+      <link></link>
       <description>Descobreix les últimes tendències i estratègies en el camp de la ciberseguretat.</description>
       <pubDate>Mon, 13 Feb 2024 08:30:00 GMT</pubDate>
       <guid isPermaLink="true">https://exemple.com/noticia2</guid>
@@ -30,10 +30,10 @@
     
     <item>
       <title>Intel·ligència artificial: impacte en la indústria i la vida quotidiana</title>
-      <link>https://exemple.com/noticia3</link>
+      <link></link>
       <description>Com la intel·ligència artificial està transformant diversos aspectes de la nostra vida i la indústria.</description>
       <pubDate>Mon, 13 Feb 2024 08:45:00 GMT</pubDate>
-       <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/langca-800px-Feed-icon.svg.png" type="image/jpeg" />
+       <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/langca-800px-Feed-icon.svg.png" type="image/png" />
     </item>
 
   </channel>
