@@ -5,10 +5,9 @@
     <link>https://exemple.com</link>
     <description>Les últimes notícies d'informàtica</description>
     <language>ca</language>
-    <pubDate>Mon, 13 Feb 2024 08:00:00 GMT</pubDate>
     <lastBuildDate>Mon, 13 Feb 2024 08:00:00 GMT</lastBuildDate>
     <generator>Generador d'RSS</generator>
-    <managingEditor>joel.lota5@gmail.com</managingEditor>
+    <managingEditor>joel.lota5@gmail.com (Joel)</managingEditor>
 
     <item>
       <title>Nova tecnologia de realitat virtual revoluciona el mercat</title>
@@ -22,6 +21,7 @@
       <link>https://exemple.com/noticia2</link>
       <description>Descobreix les últimes tendències i estratègies en el camp de la ciberseguretat.</description>
       <pubDate>Mon, 13 Feb 2024 08:30:00 GMT</pubDate>
+      <guid isPermaLink="true">https://exemple.com/noticia2</guid>
     </item>
 
     <item>
@@ -29,7 +29,7 @@
       <link>https://exemple.com/noticia3</link>
       <description>Com la intel·ligència artificial està transformant diversos aspectes de la nostra vida i la indústria.</description>
       <pubDate>Mon, 13 Feb 2024 08:45:00 GMT</pubDate>
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/langca-800px-Feed-icon.svg.png" type="image/png" />
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/langca-800px-Feed-icon.svg.png" type="image/png" length="1234"/>
     </item>
 
   </channel>
