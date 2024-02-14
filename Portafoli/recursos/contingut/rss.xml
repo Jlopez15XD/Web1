@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notícies d'Informàtica</title>
     <link>https://exemple.com</link>
@@ -10,29 +10,26 @@
     <generator>Generador d'RSS</generator>
     <managingEditor>joel.lota5@gmail.com</managingEditor>
 
-   
     <item>
       <title>Nova tecnologia de realitat virtual revoluciona el mercat</title>
-      <link></link>
+      <link>https://exemple.com/noticia1</link>
       <description>Una nova tecnologia de realitat virtual promet canviar la manera en què experimentem el món digital.</description>
       <pubDate>Mon, 13 Feb 2024 08:15:00 GMT</pubDate>
     </item>
 
- 
     <item>
       <title>Últimes tendències en ciberseguretat</title>
-      <link></link>
+      <link>https://exemple.com/noticia2</link>
       <description>Descobreix les últimes tendències i estratègies en el camp de la ciberseguretat.</description>
       <pubDate>Mon, 13 Feb 2024 08:30:00 GMT</pubDate>
     </item>
 
-    
     <item>
       <title>Intel·ligència artificial: impacte en la indústria i la vida quotidiana</title>
-      <link></link>
+      <link>https://exemple.com/noticia3</link>
       <description>Com la intel·ligència artificial està transformant diversos aspectes de la nostra vida i la indústria.</description>
       <pubDate>Mon, 13 Feb 2024 08:45:00 GMT</pubDate>
-       <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/langca-800px-Feed-icon.svg.png" type="image/png" />
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/langca-800px-Feed-icon.svg.png" type="image/png" />
     </item>
 
   </channel>
