@@ -1,39 +1,43 @@
-<feed xmlns="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ca">
   <title>Notícies d'Informàtica</title>
-  <link>https://exemple.com</link>
-  <subtitle>Les últimes notícies d'informàtica</subtitle>
+  <link href="https://exemple.com"/>
+  <description>Les últimes notícies d'informàtica</description>
   <updated>2024-02-13T08:00:00Z</updated>
   <id>https://exemple.com</id>
   <author>
     <name>Generador d'RSS</name>
     <email>joel.lota5@gmail.com</email>
   </author>
+  
   <entry>
     <title>Nova tecnologia de realitat virtual revoluciona el mercat</title>
-    <link>https://exemple.com</link>
+    <link href=""/>
     <id>https://exemple.com#item1</id>
     <published>2024-02-13T08:15:00Z</published>
     <updated>2024-02-13T08:15:00Z</updated>
     <summary>Una nova tecnologia de realitat virtual promet canviar la manera en què experimentem el món digital.</summary>
   </entry>
+
   <entry>
     <title>Últimes tendències en ciberseguretat</title>
-    <link>https://exemple.com/noticia2</link>
+    <link href=""/>
     <id>https://exemple.com#item2</id>
     <published>2024-02-13T08:30:00Z</published>
     <updated>2024-02-13T08:30:00Z</updated>
     <summary>Descobreix les últimes tendències i estratègies en el camp de la ciberseguretat.</summary>
   </entry>
+
   <entry>
     <title>Intel·ligència artificial: impacte en la indústria i la vida quotidiana</title>
-    <link>https://exemple.com</link>
+    <link href=""/>
     <id>https://exemple.com#item3</id>
     <published>2024-02-13T08:45:00Z</published>
     <updated>2024-02-13T08:45:00Z</updated>
     <summary>Com la intel·ligència artificial està transformant diversos aspectes de la nostra vida i la indústria.</summary>
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/langca-800px-Feed-icon.svg.png" alt="Feed Icon" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/langca-800px-Feed-icon.svg.png" alt="Feed Icon"/>
       </div>
     </content>
   </entry>
